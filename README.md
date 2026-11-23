@@ -4,6 +4,8 @@ A production-ready developer portfolio for **Khine Min Htun**, a backend softwar
 
 Built with **Vite, React, TypeScript, Tailwind CSS v4, and lucide-react**.
 
+**Live portfolio:** https://khineminhtun-portfolio.netlify.app/
+
 ---
 
 ## Highlights
