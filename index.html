@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" href="/profile.jpg" />
+    <meta name="theme-color" content="#0B0F17" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#F7F9FC" media="(prefers-color-scheme: light)" />
+    <meta
+      name="description"
+      content="Khine Min Htun — backend software engineer. Fifth-year BE.IT student at UTYCC building Go and Java services, REST APIs, and database-backed systems."
+    />
+    <meta name="author" content="Khine Min Htun" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Khine Min Htun — Backend Software Engineer" />
+    <meta
+      property="og:description"
+      content="Backend software engineer. Go, Java, Spring Boot, PostgreSQL, MySQL, Redis, and offline-first Flutter."
+    />
+    <meta property="og:image" content="/profile.jpg" />
+    <meta property="og:site_name" content="Khine Min Htun" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Khine Min Htun — Backend Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Backend software engineer focused on RESTful API design, typed data access, and reliable services."
+    />
+    <meta name="twitter:image" content="/profile.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Khine Min Htun — Backend Software Engineer</title>
+
+    <script>
+      try {
+        if (localStorage.getItem('kmh-theme') === 'light') {
+          document.documentElement.classList.remove('dark')
+        }
+      } catch (_) {
+        /* Theme preference is optional; dark mode remains the default. */
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Khine Min Htun",
+        "jobTitle": "Backend Software Engineer",
+        "description": "Fifth-year BE.IT student at University of Technology (Yadanarbon Cyber City) focused on backend engineering, RESTful API design, and database systems.",
+        "url": "https://github.com/khaingminhtun",
+        "image": "/profile.jpg",
+        "sameAs": ["https://github.com/khaingminhtun"],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Technology (Yadanarbon Cyber City)"
+        },
+        "knowsAbout": [
+          "Go",
+          "Java",
+          "Python",
+          "TypeScript",
+          "Spring Boot",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "REST APIs",
+          "Database Systems"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
